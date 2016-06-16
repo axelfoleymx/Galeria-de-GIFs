@@ -11,9 +11,9 @@ p{color:white;
     width: 53%
 	}
 #tabla{
-  display: table;
+  display: flex;
   border: solid black;
-  width: 40vw;
+  width: 60vw;
   height: 40vw;
 
 }
@@ -26,19 +26,46 @@ p{color:white;
 }
 .fila{
   display: table-row;
+  display: block;
+  margin: 1px;
+  float: left;
 
 }
 
-.col-w {
-	display: table-cell;
-	padding: 12px;
+.col{
+display: table-cell;
 
-    width: 5vw;
-    height: 5vw;
+	padding: 2px;
+
+
+
+}
+/*PrimeraFila*/
+.col-1{ background-image: url(img/arturo.gif);
+ }
+.col-2{ background-image: url(img/auto.gif); 
+}
+.col-3{ background-image: url(img/bobe.gif);
+ }
+.col-4{ background-image: url(img/gato.gif); 
+}
+/*SegundaFila*/
+.col-5{ background-image: url(img/karen.gif);
+}
+.col-6{ background-image: url(img/leovi.gif); 
+}
+.col-7{ background-image: url(img/pako.gif);
+}
+.col-8{ background-image: url(img/Peter.gif);}
+/*TerceraFila*/
+.col-9{ background-image: url(img/Simba.gif);
+}
+.col-10{ background-image: url(img/rulotico.gif); 
+f}
+.col-11{ background-image: url(img/thrillerzombie..gif);
+}
+.col-12{ background-image: url(img/sherley.gif); 
 }
 
-.col-b {
-	display: table-cell;
 
-    width: 5vw;
-    height: 5vw;
+

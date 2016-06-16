@@ -1,0 +1,44 @@
+body{
+ 
+  margin-left:30%;
+  margin-top: 5%;
+  background-color: #173174
+}
+p{color:white;
+    font-family: "Garamond";
+    font-size: 40px;
+    margin-left: 30%;
+    width: 53%
+	}
+#tabla{
+  display: table;
+  border: solid black;
+  width: 40vw;
+  height: 40vw;
+
+}
+
+.bigsquare {
+    display: flex;
+    width: 30vw;
+    height: 30vw;
+
+}
+.fila{
+  display: table-row;
+
+}
+
+.col-w {
+	display: table-cell;
+	padding: 12px;
+
+    width: 5vw;
+    height: 5vw;
+}
+
+.col-b {
+	display: table-cell;
+
+    width: 5vw;
+    height: 5vw;

@@ -3,6 +3,7 @@ body{
   margin-left: 40vh;
   margin-top: 10%
 }
+
 p{color:white;
     font-family: "Garamond";
     font-size: 40px;
@@ -64,4 +65,29 @@ div.desc {
     text-align: center;
 }
 
+
+.footer {
+  width: 80vw;
+  height: 30px;
+  margin: auto;
+  background-color: #121212;
+  text-align: center;
+  padding-top: 5px;
+}
+.footer a {
+  font-family: 'Comfortaa', cursive;
+  padding-top: 40%;
+  font-weight: 100;
+  color: #fff;
+}
+.me {
+  height:5vw;
+  width:10vw;
+  margin: auto;
+  border-radius: 0 0 10vw 10vw;
+  -moz-border-radius: 0 0 10vw 10vw;
+  -webkit-border-radius: 0 0 10vw 10vw;
+  background: url('http://rulotico.github.io/GifsParty/img/bobe.gif') center no-repeat;
+  background-size: cover;
+}
 

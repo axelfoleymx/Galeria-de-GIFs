@@ -1,10 +1,10 @@
 body{
   background-color: orange;
-  margin-left: 30vh;
+
  
 }
 .tit{
-  margin-left: 20vh;
+  margin-left: 25%;
  
 }
 
@@ -14,13 +14,7 @@ body{
   border: solid black;
   width: 130vh;
   height: 75vh;
-
-}
-
-.bigsquare {
-    display: block;
-    width: 30vw;
-    height: 30vw;
+  margin: auto;
 
 }
 
@@ -51,7 +45,7 @@ div.desc {
 .footer {
   width: 60vw;
   height: 30px;
-  margin-left:5vw;
+  margin-left:20%;
   background-color: grey;
   text-align: center;
   padding-top: 5px;
@@ -66,7 +60,7 @@ div.desc {
   height:5vw;
   width:10vw;
   
-  margin-left: 50vh;
+  margin-left: 45%;
   border-radius: 0 0 10vw 10vw;
   -moz-border-radius: 0 0 10vw 10vw;
   -webkit-border-radius: 0 0 10vw 10vw;
